@@ -54,7 +54,18 @@ _Compat32(){
     local pkgname;pkgname="$(_getpkgnamebyidx "$v" -32)"
     _compat32stage "$pkgname";return
     fi
-    for v in "${pkgset[@]}";do _compat32stage "$v";done
+
+    declare -a us=("${pkgset[@]}")
+    if [ ! "${arg_overwrite-}" = 't' ];then
+    declare -a vs;_pkgarr 'vs';vs=("${vs[@]%-compat32}")
+    mapfile -t 'us'< <(printf '%s\n' "${pkgset[@]}" "${vs[@]}" "${vs[@]}" \
+        |sed '/^$/d'|sort|uniq -u)
+    fi
+    for v in "${us[@]}";do _compat32stage "$v";done
+}
+_haspkg(){ local pkgname="$1"
+    declare -a vs;_pkgarr 'vs'
+    [ "$(printf '%s\n' "$pkgname-compat32" "${vs[@]}"|sed '/^$/d'|sort|uniq -d)" ]
 }
 _Compat32install(){
     for v in "${pkgset[@]/%/-compat32}";do _Install "$v";done
@@ -288,7 +299,7 @@ _main(){ _usage(){ cat<<-EOF
 	EXAMPLES
 	    $0 l                    prints packages
 	    $0 s                    prints a summary of current setup
-	    $0 -m                   creates predefined list of compatibility packages
+	    $0 -om                  creates predefined list of compatibility packages
 	    $0 -m dbus              creates dbus-compat32 pkg using 32bit dbus package
 	    $0 -Cu 2>log            logs changes of -m packages for verification
 	    $0 -a                   installs packages created by -m
@@ -309,6 +320,7 @@ _main(){ _usage(){ cat<<-EOF
     args=();local verb=;while [ $# -gt 0 ];do case "$1" in
         --)shift;args+=("$@");break;;
         -u|--terse)arg_terse='t';;
+        -o|--overwrite)arg_overwrite='t';;
         --system)shift;arg_system="$1";;
         -y)arg_system='64';;
         -i|--install|-r|--remove);&

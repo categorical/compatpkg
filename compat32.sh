@@ -346,5 +346,13 @@ xxHash
 xz
 zlib
 zstd
+
+libdvdread
+nghttp2
+opencv
+libvisual
+neon
+libsoup
+libproxy
 )
 
