@@ -1,0 +1,7 @@
+9dd4cf4137fba71b73676029fe0ae0d6  01gcc.SlackBuild
+675e2d05e32086664f483cd73f7a694d  02gcc-multilib.SlackBuild
+af5a3684c246b0dfe234b396f1c0b4a8  03gcc-static.SlackBuild
+2df48598e194705b3a15151b1a7f59fa  04glibc.SlackBuild
+af3cb52ea15620267c94bfa0131fbdff  05glibc-multilib.SlackBuild
+4cb793d940785743b1977faa6b024493  06convertpkg-compat32
+9f053cdea1dcbf5b7ce7b9e0ba83b7b1  07massconvert32.sh

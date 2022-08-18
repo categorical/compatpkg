@@ -1,0 +1,299 @@
+info: set of files in at-spi2-core-compat32 alien but not in at-spi2-core-compat32
+usr/lib/systemd/user/at-spi-dbus-bus.service
+
+info: set of files in cups-compat32 alien but not in cups-compat32
+usr/lib/pkgconfig/cups.pc
+
+info: set of files in curl-compat32 alien but not in curl-compat32
+usr/lib/libcurl.so.4.8.0
+info: set of files in curl-compat32 but not in curl-compat32 alien
+usr/lib/libcurl.so.4.7.0
+
+info: set of files in expat-compat32 alien but not in expat-compat32
+usr/lib/cmake/expat-2.4.7/expat-config-version.cmake
+usr/lib/cmake/expat-2.4.7/expat-config.cmake
+usr/lib/cmake/expat-2.4.7/expat-noconfig.cmake
+usr/lib/cmake/expat-2.4.7/expat.cmake
+usr/lib/libexpat.so.1.8.7
+info: set of files in expat-compat32 but not in expat-compat32 alien
+usr/lib/cmake/expat-2.4.4/expat-config-version.cmake
+usr/lib/cmake/expat-2.4.4/expat-config.cmake
+usr/lib/cmake/expat-2.4.4/expat-noconfig.cmake
+usr/lib/cmake/expat-2.4.4/expat.cmake
+usr/lib/libexpat.so.1.8.4
+
+info: set of files in fontconfig-compat32 alien but not in fontconfig-compat32
+var/log/setup/setup.05.fontconfig
+
+info: set of files in gdk-pixbuf2-compat32 alien but not in gdk-pixbuf2-compat32
+usr/bin/gdk-pixbuf-csource-32
+usr/bin/gdk-pixbuf-pixdata-32
+usr/bin/gdk-pixbuf-query-loaders-32
+usr/bin/gdk-pixbuf-thumbnailer-32
+usr/bin/update-gdk-pixbuf-loaders-32
+info: set of files in gdk-pixbuf2-compat32 but not in gdk-pixbuf2-compat32 alien
+usr/bin/32/gdk-pixbuf-csource
+usr/bin/32/gdk-pixbuf-pixdata
+usr/bin/32/gdk-pixbuf-query-loaders-32
+usr/bin/32/gdk-pixbuf-thumbnailer
+usr/bin/32/update-gdk-pixbuf-loaders
+
+info: set of files in glib2-compat32 but not in glib2-compat32 alien
+usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.7000.3-gdb.py
+usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.7000.3-gdb.py
+
+info: set of files in gstreamer-compat32 but not in gstreamer-compat32 alien
+usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.1805.0-gdb.py
+
+info: set of files in gtk+2-compat32 alien but not in gtk+2-compat32
+etc/gtk-2.0/im-multipress.conf.new
+etc/profile.d/gtk+.csh
+etc/profile.d/gtk+.sh
+usr/bin/gtk-builder-convert-32
+usr/bin/gtk-demo-32
+usr/bin/gtk-query-immodules-2.0-32
+usr/bin/gtk-update-icon-cache-32
+usr/bin/update-gtk-immodules-2.0-32
+usr/bin/update-gtk-immodules-32
+info: set of files in gtk+2-compat32 but not in gtk+2-compat32 alien
+usr/bin/32/gtk-builder-convert
+usr/bin/32/gtk-demo
+usr/bin/32/gtk-query-immodules-2.0-32
+usr/bin/32/gtk-update-icon-cache
+usr/bin/32/update-gtk-immodules
+usr/bin/32/update-gtk-immodules-2.0
+
+info: set of files in gtk+3-compat32 alien but not in gtk+3-compat32
+etc/gtk-3.0/gtkrc.new
+etc/gtk-3.0/im-multipress.conf.new
+usr/bin/broadwayd-32
+usr/bin/gtk-builder-tool-32
+usr/bin/gtk-encode-symbolic-svg-32
+usr/bin/gtk-launch-32
+usr/bin/gtk-query-immodules-3.0-32
+usr/bin/gtk-query-settings-32
+usr/bin/gtk-update-icon-cache-32
+usr/bin/gtk3-demo-32
+usr/bin/gtk3-demo-application-32
+usr/bin/gtk3-icon-browser-32
+usr/bin/gtk3-widget-factory-32
+usr/bin/update-gtk-immodules-3.0-32
+info: set of files in gtk+3-compat32 but not in gtk+3-compat32 alien
+usr/bin/32/broadwayd
+usr/bin/32/gtk-builder-tool
+usr/bin/32/gtk-encode-symbolic-svg
+usr/bin/32/gtk-launch
+usr/bin/32/gtk-query-immodules-3.0-32
+usr/bin/32/gtk-query-settings
+usr/bin/32/gtk-update-icon-cache
+usr/bin/32/gtk3-demo
+usr/bin/32/gtk3-demo-application
+usr/bin/32/gtk3-icon-browser
+usr/bin/32/gtk3-widget-factory
+usr/bin/32/update-gtk-immodules-3.0
+
+info: set of files in krb5-compat32 alien but not in krb5-compat32
+var/kerberos/krb5kdc/kdc.conf.example
+
+info: set of files in libarchive-compat32 alien but not in libarchive-compat32
+usr/lib/libarchive.so.13.6.1
+info: set of files in libarchive-compat32 but not in libarchive-compat32 alien
+usr/lib/libarchive.so.13.5.2
+
+info: set of files in libxml2-compat32 alien but not in libxml2-compat32
+usr/lib/libxml2.so.2.9.14
+info: set of files in libxml2-compat32 but not in libxml2-compat32 alien
+usr/lib/libxml2.so.2.9.12
+
+info: set of files in libxslt-compat32 alien but not in libxslt-compat32
+usr/lib/cmake/libxslt/FindGcrypt.cmake
+usr/lib/cmake/libxslt/libxslt-config.cmake
+usr/lib/libxslt.so.1.1.35
+info: set of files in libxslt-compat32 but not in libxslt-compat32 alien
+usr/lib/libxslt.so.1.1.34
+
+info: set of files in llvm-compat32 alien but not in llvm-compat32
+usr/bin/32/32
+usr/bin/FileCheck-32
+usr/bin/analyze-build-32
+usr/bin/bugpoint-32
+usr/bin/c-index-test-32
+usr/bin/clang-13-32
+usr/bin/clang-apply-replacements-32
+usr/bin/clang-change-namespace-32
+usr/bin/clang-check-32
+usr/bin/clang-doc-32
+usr/bin/clang-extdef-mapping-32
+usr/bin/clang-format-32
+usr/bin/clang-include-fixer-32
+usr/bin/clang-move-32
+usr/bin/clang-offload-bundler-32
+usr/bin/clang-offload-wrapper-32
+usr/bin/clang-query-32
+usr/bin/clang-refactor-32
+usr/bin/clang-rename-32
+usr/bin/clang-reorder-fields-32
+usr/bin/clang-repl-32
+usr/bin/clang-scan-deps-32
+usr/bin/clang-tidy-32
+usr/bin/count-32
+usr/bin/diagtool-32
+usr/bin/dsymutil-32
+usr/bin/find-all-symbols-32
+usr/bin/git-clang-format-32
+usr/bin/hmaptool-32
+usr/bin/intercept-build-32
+usr/bin/lit-cpuid-32
+usr/bin/llc-32
+usr/bin/lldb-32
+usr/bin/lldb-argdumper-32
+usr/bin/lldb-instr-32
+usr/bin/lldb-server-32
+usr/bin/lldb-vscode-32
+usr/bin/lli-32
+usr/bin/lli-child-target-32
+usr/bin/llvm-PerfectShuffle-32
+usr/bin/llvm-ar-32
+usr/bin/llvm-as-32
+usr/bin/llvm-bcanalyzer-32
+usr/bin/llvm-c-test-32
+usr/bin/llvm-cat-32
+usr/bin/llvm-cfi-verify-32
+usr/bin/llvm-config-32
+usr/bin/llvm-cov-32
+usr/bin/llvm-cvtres-32
+usr/bin/llvm-cxxdump-32
+usr/bin/llvm-cxxfilt-32
+usr/bin/llvm-cxxmap-32
+usr/bin/llvm-diff-32
+usr/bin/llvm-dis-32
+usr/bin/llvm-dwarfdump-32
+usr/bin/llvm-dwp-32
+usr/bin/llvm-exegesis-32
+usr/bin/llvm-extract-32
+usr/bin/llvm-gsymutil-32
+usr/bin/llvm-ifs-32
+usr/bin/llvm-jitlink-32
+usr/bin/llvm-jitlink-executor-32
+usr/bin/llvm-libtool-darwin-32
+usr/bin/llvm-link-32
+usr/bin/llvm-lipo-32
+usr/bin/llvm-lto-32
+usr/bin/llvm-lto2-32
+usr/bin/llvm-mc-32
+usr/bin/llvm-mca-32
+usr/bin/llvm-ml-32
+usr/bin/llvm-modextract-32
+usr/bin/llvm-mt-32
+usr/bin/llvm-nm-32
+usr/bin/llvm-objcopy-32
+usr/bin/llvm-objdump-32
+usr/bin/llvm-omp-device-info-32
+usr/bin/llvm-opt-report-32
+usr/bin/llvm-pdbutil-32
+usr/bin/llvm-profdata-32
+usr/bin/llvm-profgen-32
+usr/bin/llvm-rc-32
+usr/bin/llvm-readobj-32
+usr/bin/llvm-reduce-32
+usr/bin/llvm-rtdyld-32
+usr/bin/llvm-sim-32
+usr/bin/llvm-size-32
+usr/bin/llvm-split-32
+usr/bin/llvm-stress-32
+usr/bin/llvm-strings-32
+usr/bin/llvm-symbolizer-32
+usr/bin/llvm-tapi-diff-32
+usr/bin/llvm-tblgen-32
+usr/bin/llvm-undname-32
+usr/bin/llvm-xray-32
+usr/bin/modularize-32
+usr/bin/not-32
+usr/bin/obj2yaml-32
+usr/bin/opt-32
+usr/bin/pp-trace-32
+usr/bin/run-clang-tidy-32
+usr/bin/sancov-32
+usr/bin/sanstats-32
+usr/bin/scan-build-32
+usr/bin/scan-build-py-32
+usr/bin/scan-view-32
+usr/bin/split-file-32
+usr/bin/verify-uselistorder-32
+usr/bin/yaml-bench-32
+usr/bin/yaml2obj-32
+usr/lib/libear/__init__.py
+usr/lib/libear/config.h.in
+usr/lib/libear/ear.c
+usr/lib/libscanbuild/__init__.py
+usr/lib/libscanbuild/analyze.py
+usr/lib/libscanbuild/arguments.py
+usr/lib/libscanbuild/clang.py
+usr/lib/libscanbuild/compilation.py
+usr/lib/libscanbuild/intercept.py
+usr/lib/libscanbuild/report.py
+usr/lib/libscanbuild/resources/scanview.css
+usr/lib/libscanbuild/resources/selectable.js
+usr/lib/libscanbuild/resources/sorttable.js
+usr/lib/libscanbuild/shell.py
+
+info: set of files in mariadb-compat32 alien but not in mariadb-compat32
+usr/bin/32/wsrep_sst_backup
+
+info: set of files in openldap-compat32 alien but not in openldap-compat32
+var/lib/openldap/DB_CONFIG.example
+
+info: set of files in pam-compat32 alien but not in pam-compat32
+lib/systemd/system/pam_namespace.service
+
+info: set of files in pango-compat32 alien but not in pango-compat32
+usr/bin/pango-list-32
+usr/bin/pango-segmentation-32
+usr/bin/pango-view-32
+info: set of files in pango-compat32 but not in pango-compat32 alien
+usr/bin/32/pango-list
+usr/bin/32/pango-segmentation
+usr/bin/32/pango-view
+
+info: set of files in qt5-compat32 alien but not in qt5-compat32
+usr/lib/cmake/Qt5WaylandClient/Qt5WaylandClient_DmaBufServerBufferPlugin.cmake
+usr/lib/cmake/Qt5WaylandCompositor/Qt5WaylandCompositor_DmaBufServerBufferIntegrationPlugin.cmake
+usr/lib/cmake/Qt5WaylandCompositor/Qt5WaylandCompositor_QWaylandDmabufClientBufferIntegrationPlugin.cmake
+usr/lib/qt5/plugins/wayland-graphics-integration-client/libdmabuf-server.so
+usr/lib/qt5/plugins/wayland-graphics-integration-server/libqt-wayland-compositor-dmabuf-server-buffer.so
+usr/lib/qt5/plugins/wayland-graphics-integration-server/libqt-wayland-compositor-linux-dmabuf-unstable-v1.so
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightarea.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightarea16.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightarea@2x.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightdirectional.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightdirectional16.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightdirectional@2x.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightpoint.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightpoint16.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightpoint@2x.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightspot.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightspot16.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/lightspot@2x.png
+info: set of files in qt5-compat32 but not in qt5-compat32 alien
+usr/lib/qt5/qml/QtQuick3D/designer/images/light.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/light16.png
+usr/lib/qt5/qml/QtQuick3D/designer/images/light@2x.png
+
+info: set of files in samba-compat32 alien but not in samba-compat32
+usr/lib/libldb.so.2.4.2
+usr/lib/libpyldb-util.cpython-39-i386-linux-gnu.so.2.4.2
+info: set of files in samba-compat32 but not in samba-compat32 alien
+usr/lib/libldb.so.2.4.1
+usr/lib/libpyldb-util.cpython-39-i386-linux-gnu.so.2.4.1
+
+info: set of files in wavpack-compat32 alien but not in wavpack-compat32
+usr/lib/libwavpack.so.1.2.4
+info: set of files in wavpack-compat32 but not in wavpack-compat32 alien
+usr/lib/libwavpack.so.1.2.3
+
+info: set of files in zlib-compat32 alien but not in zlib-compat32
+lib/libz.so.1.2.12
+info: set of files in zlib-compat32 but not in zlib-compat32 alien
+lib/libz.so.1.2.11
+
+exit: 0
